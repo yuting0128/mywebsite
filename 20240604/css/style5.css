@@ -1,0 +1,27 @@
+#content{
+    width: 1352px;
+    margin: 0 auto 0 auto;
+}
+
+body{
+    margin: 0;
+
+}
+
+header{
+    background-color: rgb(199, 142, 104);
+    height: 30px;
+    padding: 5px 40px 5px 40px;
+}
+
+
+.menu{
+    list-style-type: none;
+    text-align: right;
+}
+.menu-item{
+    display: inline-block;
+    width: 100px;
+    line-height: 50%;
+    color: white;
+}
