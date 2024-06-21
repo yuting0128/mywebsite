@@ -9,46 +9,60 @@ body{
 
 header{
     background-color: rgb(199, 152, 121);
-    height: 30px;
-    padding: 5px 40px 5px 40px;
+    height: 40px;
+    padding: 0 40px 0 40px;
 }
-aside{
-    float: left;
-}
+
 .menu{
     list-style-type: none;
     text-align: right;
+    margin: 0;
 }
 .menu-item{
     display: inline-block;
-    width: 100px;
-    line-height: 50%;
+    padding: 10px 20px 0 20px;
     color: white;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu-item a:hover{
+    color: antiquewhite;
+
+}
+
 .comma{
     color: rgb(150, 99, 41);
     text-align: center;
-    margin: 100px;
+    margin: 80px;
     border: 2px solid #af7954;
     border-radius: 10px;
-    padding: 20px;
+    padding: 60px 80px 60px 80px;
     
 }
 .me{
     text-align: center;
-    margin: 100px;
-    padding: 100px;
+    padding: 50px;
     
 }
 h1{
     font-size: 1.5em;
     color: #af7954;
 }
+p{
+    color: #af7954;
+    
+}
 li{
     list-style-type: none;
     color: #af7954;
+    text-align: left;
 }
-#section{
+.box{
+    float: left;
+}
+.box2{
     float: right;
 
 

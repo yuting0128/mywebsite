@@ -10,29 +10,38 @@ body{
 
 header{
     background-color: rgb(199, 152, 121);
-    height: 30px;
-    padding: 5px 40px 5px 40px;
+    height: 40px;
+    padding: 0 40px 0 40px;
 }
 
 .menu{
     list-style-type: none;
     text-align: right;
+    margin: 0;
 }
 .menu-item{
     display: inline-block;
-    width: 100px;
-    line-height: 50%;
+    padding: 10px 20px 0 20px;
     color: white;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+.menu-item a:hover{
+    color: antiquewhite;
 
+}
 
 main{
     background-color: rgb(255, 255, 255);
-    height: 100px;
-    padding: 120px 100px 120px 100px;
+    padding: 50px 100px 50px 100px;
+    display: block;
 }
 h1{
-    color: rgb(129, 89, 66);
+    color: rgb(199, 152, 121);
     font-size: 3em;
     text-align: center;
 }
+
+    
